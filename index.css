@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+    margin: 20px 20px;
+    border-radius: 10px;
+}
+
+h3 {
+    color: #EEE;
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35.893px;
+    margin-top: 68px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    color: #F94F6D;
+    text-align: center;
+    font-size: 90px;
+    font-family: Cursed Timer ULiL;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.666px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.score {
+    width: 155px;
+    height: 120px;
+    margin-top: 21px;
+    margin-bottom: 23px;
+    border-radius: 5px;
+    padding: 0px;
+    background-color: black;
+}
+
+.buttons-conteiner {
+    width: 155px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    color: #9AABD8;
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    background-color: #1B244A;
+    font-size: 18px;
+    font-family: Cursed Timer ULiL;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.reset {
+    width: 100px;
+    height: 35px;
+    margin-left: 25px;
+    margin-top: 10px;
+    padding: 0px;
+    padding-top: 3px;; 
+}
